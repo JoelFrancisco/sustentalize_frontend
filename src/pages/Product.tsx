@@ -33,8 +33,6 @@ const Product: FC = () => {
   const [color, setColor] = useState("");
   const [description, setDescription] = useState("");
 
-  const [loaded, setLoaded] = useState(false);
-
   const buying = () => { 
     console.log('buying');
   }

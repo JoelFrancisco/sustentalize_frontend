@@ -27,6 +27,7 @@ function Cadastro() {
   const save = () => {
     api.post('/user', { email, username, password } as User)
       .then(res => {
+        alert('foi');
         console.log(res);
       })
       .catch(err => {
@@ -99,9 +100,9 @@ function Cadastro() {
                 Atendimento Online
                 </div>
               </div>
-              <div className="footer-2">
+              {/* <div className="footer-2">
                 <Footer/>
-              </div>
+              </div> */}
               </div>
 
         </div>

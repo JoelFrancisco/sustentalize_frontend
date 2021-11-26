@@ -19,6 +19,7 @@
     "react-pro-sidebar": "^0.7.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-sdk-mercadopago": "^1.1.1",
     "sass": "^1.43.4",
     "typeface-roboto": "^1.1.13",
     "typescript": "^4.4.4",
